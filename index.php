@@ -15,7 +15,7 @@
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="header.js"></script> 
 
-
+include (conexion.php);
 
 </head>
 
