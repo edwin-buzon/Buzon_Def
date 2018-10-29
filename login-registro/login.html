@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login en PHP</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script type="text/javascript" src="scriptConexion.js"></script>
+    
+    <style>
+	body{
+		background:#003b4a;	
+		
+	}
+      .container{
+		  margin-top:100px;
+		  width:50%;
+		  background:#FFF;
+		  border:solid #f56f3a 3px;
+		  padding:4%;
+		  
+	}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-horizontal" action="" id="conex" method='POST'>
+      <!--correo-->
+        <div class="form-group">
+          <label for="inputEmail3" class="col-sm-2 control-label"  >Correo</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control " name="email" id="inputEmail" placeholder="Correo" required maxlength="25" >
+          </div>
+        </div>
+      <!--Contraseña-->
+        <div class="form-group">
+          <label for="inputPassword3" class="col-sm-2 control-label" id="contra">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" name="password" id="inputPassword" placeholder="Contraseña" required maxlength="30">
+          </div>
+        </div>
+     <!--Registro/boton-->
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <p style="color:#F00; margin-top:-10px" id="campo" name="campo"></p><!--por si falta un elemento de llenar-->
+            <a href="registro.html" style="font-size:13px"> Registrarse  </a><br/>
+            <button type="submit" class="btn btn-default" style="border:solid #f56f3a 1.2px" onClick="return validaDatos()">Inicio</button>
+           
+          </div>
+        </div>
+        
+        
+      
+      </form>
+    </div>
+  </body>
+</html>

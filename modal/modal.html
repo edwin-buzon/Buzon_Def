@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+
+</head>
+<body style="background:#f56f3a">
+<form action="surgerencia.php" method="POST" >
+
+  
+<!-- Tarjeta -->
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >General</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Sistemas computacionales</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Electromecánica</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Indrustrias alimentarias</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Logística</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Mecatrónica</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Gestión empresarial</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Civil</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Administración</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Sistemas automotrices</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+
+<div style="background:	#FFF; width:30%; padding:40px; border:solid #003b4a; float:left; margin:1%;" class="w3-center ">
+ <p >Turismo</p>
+ <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#exampleModal" style="margin:0 auto">ok</button>
+</div>
+<!--Fin tarjeta -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nueva sugerencia</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Titulo de la sugerencia:</label>
+            <input type="text" class="form-control" name="titulo" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Descripción:</label>
+            <textarea class="form-control" name="message" id="message-text"  style="height:8em;"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="submit" class="btn btn-primary">Crear</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal -->
+</form>
+
+</body>
+</html>
